@@ -1,0 +1,72 @@
+/*css마스터*/
+.display,span {
+    width: 80px;
+    height: 80px;
+    margin: 0 0 20px 0;
+    background: red;
+}
+div{
+    width: 50px;
+    height: 50px;
+    margin: 0 0 10px 0;
+    background: coral;
+
+}
+
+/*display propety*/
+.display {
+    background: green;
+    display: inline-block;
+}
+span{
+    background: Blue;
+    display: block;
+}
+/*position propety*/
+.bigbox{
+    width: 100%;
+    background: yellow;
+    display: block;
+}
+.container{
+background: burlywood;
+display: block;
+}
+div{
+    background: coral;
+}
+.box{
+    background: blue;
+    left: 20px;
+    top: 20px;
+    position: relative;
+
+}
+.box1{
+    position: sticky;
+    left: 20px;
+    top: 20px;
+    background: skyblue;
+
+}
+/*absolute= 내아이템이 담겨있는 상자안에서 움직임*/
+.box2{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: darkgoldenrod;
+}
+/*absolute릴레이티브는 원래 정해놓은자리를 기준으로 움직임*/
+.box3{
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background: crimson;
+}
+/*fixde 상자에서 벗어나 윈도우안에서 움직임*/
+.box4{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    background: rgb(255, 197, 209);
+}

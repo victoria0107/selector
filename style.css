@@ -1,0 +1,46 @@
+/*selector{
+    property:value;
+} */
+/*css기초*/
+* {
+    color: lightcoral;
+}
+.study1{
+    visibility: hidden;
+}
+li{
+    color: lightseagreen;
+}
+
+#special{
+    color: lightslategray;
+}
+.red{
+    background-color: lime;
+    width: 100px;
+    height: 100px;
+    
+}
+ button:hover{
+     color: red;
+     background: beige;
+ }
+
+ a[href^="naver"] {
+     color: purple;
+ }
+ 
+ a[href$=".com"] {
+    color: rgb(0, 172, 66);
+}
+h4{
+    margin: 0;
+    color: royalblue;
+}
+.option{
+    width: 500px;
+    text-align: center;
+    margin: 3px 5px;
+    padding: 2px 3px 2px 2px;
+    border:3px solid hotpink
+}
